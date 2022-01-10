@@ -33,7 +33,13 @@ export const Navbar = () => {
           <li className="hover:underline cursor-pointer">Nosotros</li>
           <li className="hover:underline cursor-pointer">Contacto</li>
           <li className="hover:underline cursor-pointer">Pedir Presupuesto</li>
-          <li className="hover:underline cursor-pointer">SPA</li>
+          <li className="flex justify-center gap-2 hover:underline cursor-pointer">
+            <img
+              src="assets/static/icons/icon-material-language.svg"
+              alt="icon language"
+            />
+            SPA
+          </li>
         </ol>
       </div>
       <div className="hidden lg:block w-full ">
@@ -59,7 +65,11 @@ export const Navbar = () => {
           <li className="font-nunito text-white text-base font-bold cursor-pointer hover:text-primary-light border border-white rounded-lg py-[14px] px-[22px] transition-colors">
             Pedir Presupuesto
           </li>
-          <li className="font-nunito text-white text-base font-bold cursor-pointer hover:text-primary-light transition-colors">
+          <li className="flex gap-2 font-nunito text-white text-base font-bold cursor-pointer hover:text-primary-light transition-colors">
+            <img
+              src="assets/static/icons/icon-material-language.svg"
+              alt="icon language"
+            />
             SPA
           </li>
         </ol>
