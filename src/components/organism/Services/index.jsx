@@ -2,11 +2,11 @@ import { ServicesList } from "../../molecule/ServicesList";
 
 export const Services = () => {
   return (
-    <section>
+    <section className="mt-10 ">
       <p className="text-center font-nunito text-primary-light text-xl font-normal ">
         Servicios
       </p>
-      <p className="text-center font-nunito text-primary text-[32px] font-black ">
+      <p className="text-center font-nunito text-primary text-[32px] font-black">
         Tu agente cercano: en Hammer insurance nadie se queda atrás
       </p>
       <p className=" text-center font-nunito text-primary text-xl font-normal">

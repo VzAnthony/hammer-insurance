@@ -1,4 +1,3 @@
-import React from "react";
 import { ServiceCard } from "../../atom/ServiceCard";
 
 export const ServicesList = () => {
@@ -29,7 +28,7 @@ export const ServicesList = () => {
     },
   ];
   return (
-    <div className="flex justify-center w-full gap-24 mt-10 ">
+    <div className="flex justify-center w-full gap-24 mt-10 px-7 flex-wrap sm:px-14 md:px-16 xl:px-1 xl:gap-20">
       {services.map((service) => (
         <ServiceCard key={service.name} {...service} />
       ))}
