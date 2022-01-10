@@ -12,6 +12,9 @@ module.exports = {
       noto: ['"Noto Sans"', "sans-serif"],
       nunito: ['"Nunito Sans"', "sans-serif"],
     },
+    backgroundImage: {
+      "background-home": "url('/assets/static/images/background.png')",
+    },
   },
   plugins: [],
 };
